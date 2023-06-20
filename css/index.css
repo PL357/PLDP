@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Monoton&family=Poppins&display=swap');
+
+@font-face {
+    font-family: "FrozenNeutra";
+    src: url("../fonts/FrozenNeutra.otf");
+}
+
+.ctd-principal {
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 25%;
+}
+
+.titulo-principal {
+    font-family: 'FrozenNeutra';
+    font-weight: 400;
+    font-size: 95px;
+    color: #cfcfcf;
+}
+
+.sub-principal {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #cfcfcf
+}
+
+.text-desc {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #cfcfcf;
+}
+
+.ctd-principal-img {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 65px;
+    border-radius: 50%;
+}
+
+.ctd-principal {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+}
+
+.importancia {
+    clip-path: polygon(0 0, 100% 50px, 100% 100%, 0 100%);
+    margin-top: -40px;
+}
+
+.importancia {
+    background-color: #cfcfcf;
+}
+
+.importancia2 {
+    background-color: #cfcfcf;
+}
+
+.grupo-importancia {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.grupo-importancia2 {
+    padding-top: 80px;
+
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-importancia {
+    padding-right: 40px;
+    border-radius: 50%;
+}
+
+.cnt-importancia {
+    text-align: justify;
+    width: 100%;
+}
+
+.importancia-titulo {
+    font-family: 'Dangrek', cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.importancia-seg-titulo {
+    font-family: 'Dangrek', cursive;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.importancia-descricao {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.botao-importancia {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #060606;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.541);
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+.botao-importancia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: flex-end;
+    color: #cfcfcf;
+}
+
+.botao-importancia:hover {
+    transform: scale(1.04);
+    transition: 1s;
+    transition-duration: 0.3s;
+    background-color: #006464;
+    color: #cfcfcf;
+}
+
+.area-botão {
+    align-content: space-around;
+}
+
+.importancia2 {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(50% + 107.23px) calc(100% - 50px), 50% 100%, calc(50% - 107.23px) calc(100% - 50px), 0 calc(100% - 50px));
+}
+
+.video {
+    clip-path: polygon(0 0, calc(50% - 2.22px - 107.23px) 0, 50% calc(50px + 1.03px), calc(50% + 2.22px + 107.23px) 0, 100% 0, 100% 100%, 0 100%);
+    margin-top: -40px;
+}
+
+.video {
+    --s: 34px; /* control the size (the circle diameter) */
+    --c1: #006464;
+    --c2: #060606;
+    
+    --_g: radial-gradient(calc(var(--s)/2),var(--c1) 97%,#0000);
+    background:
+      var(--_g),var(--_g) calc(2*var(--s)) calc(2*var(--s)),
+      repeating-conic-gradient(from 45deg,#0000 0 25%,var(--c2) 0 50%) calc(-.707*var(--s)) calc(-.707*var(--s)),
+      repeating-linear-gradient(135deg,var(--c1) calc(var(--s)/-2) calc(var(--s)/2),var(--c2) 0 calc(2.328*var(--s)));
+    background-size: calc(4*var(--s)) calc(4*var(--s));
+    /* 
+      0.707 = sqrt(2)/2
+      2.328 = 2*sqrt(2) - .5
+    */
+  }  
+
+.cnt-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cnt-video-escrito {
+    margin-top: 170px;
+    margin-bottom: 160px;
+    text-align: justify;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #cfcfcf
+}
+
+.cnt-video-escrito-t {
+    font-family: 'Dangrek', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #cfcfcf;
+}
