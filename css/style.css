@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Concert+One=Monoton&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&display=swap');
 
 a {
     text-decoration: none;
@@ -75,15 +73,8 @@ body {
 }
 
 .texto-medio {
-    font-family: 'Dangrek', cursive;
+    font-family: 'Concert One', cursive;
     font-weight: 400;
     font-size: 48px;
-    color: #cfcfcf
-}
-
-.texto-grande {
-    font-family: 'Monoton', cursive;
-    font-weight: 400;
-    font-size: 64px;
     color: #cfcfcf
 }
